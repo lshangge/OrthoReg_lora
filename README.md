@@ -2,7 +2,7 @@
 
 [CVPR 2026] Official code for the **LoRA-ATT** and **LoRA-ATT + OrthoReg** baselines from the paper **"Understanding and Enforcing Weight Disentanglement in Task Arithmetic"**.
 
-[[Paper](https://arxiv.org/abs/XXXX.XXXXX)] &nbsp; [[OrthoReg repo](../orthoreg/)] &nbsp; [[Checkpoints](#-checkpoints)] &nbsp; [[Datasets](#-datasets)]
+[[Paper](https://arxiv.org/abs/2604.17078)] &nbsp; [[OrthoReg repo](https://github.com/RL-MIND/OrthoReg)] &nbsp; [[Checkpoints](#-checkpoints)] &nbsp; [[Datasets](#-datasets)]
 
 ---
 
@@ -17,7 +17,7 @@ We provide two modes:
 | `loraatt` | LoRA-ATT baseline (attention-only LoRA fine-tuning) |
 | `loraatt_ortho` | LoRA-ATT + OrthoReg (with orthogonality regularization on LoRA delta_W) |
 
-> **Why a separate repo?** OpenCLIP's ViT fuses Q, K, V into a single `in_proj_weight` tensor. Patching this for LoRA requires monkey-patching the attention forward pass, which adds complexity unsuitable for the main [OrthoReg repository](../orthoreg/).
+> **Why a separate repo?** OpenCLIP's ViT fuses Q, K, V into a single `in_proj_weight` tensor. Patching this for LoRA requires monkey-patching the attention forward pass, which adds complexity unsuitable for the main [OrthoReg repository](https://github.com/RL-MIND/OrthoReg).
 
 ---
 
