@@ -57,7 +57,7 @@ We evaluate on 8 image classification benchmarks: **Cars · DTD · EuroSAT · GT
 
 For dataset download and preparation, follow the instructions in the [TTA repository](https://github.com/gortizji/tangent_task_arithmetic#datasets).
 
-> 📥 **Dataset Download:** `[TODO: cloud storage link]`
+> 📥 **Dataset Download:** `https://pan.baidu.com/s/1PgLyjUrAhsmgSAz4ms5mcQ?pwd=fwf5`
 
 Set the root path via `--data-location /path/to/datasets/`.
 
@@ -158,7 +158,7 @@ python src/eval_task_negation.py \
 
 ## Checkpoints
 
-> 📥 **Checkpoint Download:** `[TODO: cloud storage link]`
+> 📥 **Checkpoint Download:** `https://huggingface.co/gezi2333/OrthoReg_lora_checkpoints`
 
 ---
 
